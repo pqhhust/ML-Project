@@ -1,5 +1,6 @@
 import csv
 
+
 goodreadsid_to_bookid = {}
 filename = 'goodbooks-10k/books.csv'
 with open(filename, "r", encoding='utf8') as f:
